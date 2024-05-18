@@ -1,0 +1,45 @@
+#clockContainer{
+    position:relative;
+    margin: auto;
+    
+    height:40vw;
+    width:40vw;
+    background: url(file:///C:/Users/Sumit%20Gahlot/Desktop/using%20html,css,js/New%20folder/th.jfif) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position:absolute;
+    background:black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hour{
+   width: 10px;
+   height: 30%;
+   top: 115px;
+   left: 49.5%;
+   opacity:0.8;
+   
+}
+
+#minute{
+   width:6px;
+   height:33%;
+   top: 105px;
+   left: 49.5%;
+   opacity:0.8;
+   
+}
+
+#second{
+    width:5px;
+    height:32%;
+    top: 105px;
+    left: 49.5%;
+    opacity:0.8;
+    
+    
+}
